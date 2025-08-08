@@ -1,5 +1,10 @@
 package ui.panel;
-public class MainPanel extend JDesktopPane{
+
+import javax.swing.JDesktopPane;
+
+public class MainPanel extends JDesktopPane {
     public MainPanel(){
-    }  
+        setSize(300, 300);
+        setVisible(true);
+    }
 }
